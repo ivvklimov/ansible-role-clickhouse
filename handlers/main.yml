@@ -4,3 +4,4 @@
   ansible.builtin.service:
     name: clickhouse-server
     state: restarted
+  ignore_errors: true
